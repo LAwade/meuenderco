@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["frontend/*"]
+    },
+    "types": ["vite/client", "vue-router"]
+  },
+  "include": ["frontend/**/*", "resources/js/**/*"],
+  "exclude": ["node_modules"]
+}
